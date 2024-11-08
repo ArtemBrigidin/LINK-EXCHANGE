@@ -1,0 +1,49 @@
+﻿:root{
+
+}
+
+.Container {
+    height: 750px; /* Set a fixed height for testing */
+    width: 100%;
+    display: flex;
+}
+
+.row-left {
+    height: auto;
+    width: 20%;
+    background-color: #0ff;
+}
+
+.OrderList {
+    height: auto;
+    width: 60%;
+    background-color: #069;
+}
+
+.row-right {
+    height: auto;
+    width: 20%;
+    background-color: #0ff;
+}
+
+.row-left, .OrderList, .row-right {
+    border: 10px solid #fff;
+}
+
+.Profile{
+    background-color: #bfbfbf;
+    height: 500px;
+    width: 500px;
+    border-radius: 15px;
+}
+
+.Profile>h3, .Profile>h6{
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.link-block{
+    background-color: azure;
+    border-radius: 15px;
+}
